@@ -1,15 +1,9 @@
 from xml.etree import ElementTree
 import datetime
-import itertools
 import numpy
 import pandas
 
 DEFAULT_NAMESPACE = NS = "{http://www.tei-c.org/ns/1.0}"
-
-#########################
-# XML Parsing Functions #
-#########################
-
 
 def makeBorrowingDataFrame(fileName):
     document = parseXMLDocument(fileName)
