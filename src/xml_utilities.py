@@ -80,9 +80,3 @@ def stringToDate(dateString):
                 return datetime.datetime.strptime(dateString, "%Y").date()
             except ValueError:
                 return numpy.datetime64("NaT")
-
-pandas.set_option('display.max_columns', None)
-pandas.set_option('display.max_rows', None)
-
-hemFile="hemingway.tei.xml"
-print(makeBorrowingDataFrame(hemFile))
