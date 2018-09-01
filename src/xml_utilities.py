@@ -29,9 +29,9 @@ def getAllBorrowingEventNodes(document):
 
 def getBorrowingEventData(borrowingEvent):
     return {"Title": getTitle(borrowingEvent),
-    "Date Borrowed": getDateBorrowed(borrowingEvent),
-    "Date Returned": getDateReturned(borrowingEvent)
-    }
+            "Date Borrowed": getDateBorrowed(borrowingEvent),
+            "Date Returned": getDateReturned(borrowingEvent)
+            }
 
 
 def getTitle(borrowingEvent):
@@ -41,19 +41,24 @@ def getTitle(borrowingEvent):
     else:
         return titleNode.text
 
+
 def getTitleNode(borrowingEvent):
     return borrowingEvent.find(f".{NS}bibl[@ana='#borrowedItem']/{NS}title")
+
 
 def getDateBorrowed(borrowingEvent):
     dateBorrowedNode = getDateBorrowedNode(borrowingEvent)
     return parseDateNodeIntoDate(dateBorrowedNode)
 
+
 def getDateBorrowedNode(borrowingEvent):
     return borrowingEvent.find(f".{NS}date[@ana='#checkedOut']")
+
 
 def getDateReturned(borrowingEvent):
     dateReturnedNode = getDataReturnedNode(borrowingEvent)
     return parseDateNodeIntoDate(dateReturnedNode)
+
 
 def getDataReturnedNode(borrowingEvent):
     return borrowingEvent.find(f".{NS}date[@ana='#returned']")
@@ -68,6 +73,7 @@ def parseDateNodeIntoDate(dateNode):
             return numpy.datetime64("NaT")
         else:
             return stringToDate(date)
+
 
 def stringToDate(dateString):
     try:
