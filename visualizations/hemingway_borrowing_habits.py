@@ -1,7 +1,4 @@
-import xml_utilities
 import pandas
-import datetime
-import collections
 import matplotlib.pylab as plt
 import seaborn as sns
 
@@ -9,7 +6,8 @@ import seaborn as sns
 ###################################################
 # Creating a series of borrowing events per month #
 ###################################################
-hemingwayDF = xml_utilities.makeBorrowingDataFrame("data/hemingway.tei.xml")
+parse_dates = ['DateBorrowed', 'DateReturned']
+hemingwayDF = pandas.read_csv("data/hemingway_borrowing.csv", index_col=0, parse_dates=parse_dates)
 
 hemingwayDF = hemingwayDF[ (hemingwayDF.Title != str()) & hemingwayDF["DateBorrowed"].notnull() ]
 
