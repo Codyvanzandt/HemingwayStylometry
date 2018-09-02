@@ -23,8 +23,8 @@ def getAllBorrowingEventNodes(document):
 
 def getBorrowingEventData(borrowingEvent):
     return {"Title": getTitle(borrowingEvent),
-            "Date Borrowed": getDateBorrowed(borrowingEvent),
-            "Date Returned": getDateReturned(borrowingEvent)
+            "DateBorrowed": getDateBorrowed(borrowingEvent),
+            "DateReturned": getDateReturned(borrowingEvent)
             }
 
 
