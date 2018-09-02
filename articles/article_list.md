@@ -4,6 +4,8 @@
 
 [Sylvia Beach and the Lost Generation](https://www.amazon.com/Sylvia-Beach-Lost-Generation-Literary/dp/0393302318)
 
+[Hemingway in Paris](https://www.amazon.com/Hemingway-Paris-Years-Michael-Reynolds/dp/0393318796#customerReviews)
+
 # Computational Methodology
 [Legislative Influence Detector](http://www.kdd.org/kdd2016/papers/files/adf0831-burgessA.pdf)
 
