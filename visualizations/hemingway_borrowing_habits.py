@@ -6,8 +6,7 @@ import seaborn as sns
 ###################################################
 # Creating a series of borrowing events per month #
 ###################################################
-parse_dates = ['DateBorrowed', 'DateReturned']
-hemingwayDF = pandas.read_csv("data/hemingway_borrowing.csv", index_col=0, parse_dates=parse_dates)
+hemingwayDF = pandas.read_csv("data/hemingway_borrowing.csv", index_col=0, parse_dates=['DateBorrowed', 'DateReturned'])
 
 hemingwayDF = hemingwayDF[ (hemingwayDF.Title != str()) & hemingwayDF["DateBorrowed"].notnull() ]
 
