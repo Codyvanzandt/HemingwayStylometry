@@ -1,7 +1,7 @@
 # Hemingway Stylometry
 
 ## Short Introduction
-A public repository to house my research on Hemingway's Paris reading list.
+Welcome to the public repository that houses my research on Hemingway's Paris reading list.
 
 This repository contains everything - code files, notes, articles, visualizations, etc. - from every step in my research process.
 
