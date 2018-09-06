@@ -5,6 +5,9 @@ import os
 import string
 import textblob
 
+additional_stopwords = [r"'s", r"n't"]
+all_stopwords = set(stopwords.words('english') + additional_stopwords)
+
 
 #######################
 # Writing token lists #
@@ -45,15 +48,13 @@ def getAllWords(blob):
     return blob.words
 
 def getNonStopwords(blob):
-    englishStopwords = set(stopwords.words('english'))
-    return [word for word in blob.words if word.lower() not in englishStopwords]
+    return [word for word in blob.words if word.lower() not in all_stopwords]
 
 def getAllTokens(blob):
     return blob.tokens
 
 def getNonStopwordTokens(blob):
-    englishStopwords = set(stopwords.words('english'))
-    return [token for token in blob.tokens if token.lower() not in englishStopwords]
+    return [token for token in blob.tokens if token.lower() not in all_stopwords]
 
 def getPunctuationOnly(blob):
     allPunctuation = set(string.punctuation)
@@ -63,12 +64,12 @@ def getPunctuationOnly(blob):
 # Usage #
 #########
 
-#createAllTokenLists("data/token_lists/without_punctuation/with_stopwords", getAllWords)
+createAllTokenLists("data/token_lists/without_punctuation/with_stopwords", getAllWords)
 
-#createAllTokenLists("data/token_lists/without_punctuation/without_stopwords", getNonStopwords)
+createAllTokenLists("data/token_lists/without_punctuation/without_stopwords", getNonStopwords)
 
-#createAllTokenLists("data/token_lists/with_punctuation/with_stopwords", getAllTokens)
+createAllTokenLists("data/token_lists/with_punctuation/with_stopwords", getAllTokens)
 
-#createAllTokenLists("data/token_lists/with_punctuation/without_stopwords", getNonStopwordTokens)
+createAllTokenLists("data/token_lists/with_punctuation/without_stopwords", getNonStopwordTokens)
 
-#createAllTokenLists("data/token_lists/just_punctuation", getPunctuationOnly)
+createAllTokenLists("data/token_lists/just_punctuation", getPunctuationOnly)
