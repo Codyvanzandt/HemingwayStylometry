@@ -1,38 +1,38 @@
-Title,Found,Source
-Mammonart,False,
-Sentimental Education,True,Gutenberg
-Sailing around the World,True,Gutenberg
-Sea and the Jungle,True,Gutenberg
-Lear of the Steppes,True,Gutenberg
-Sportsman's Sketches vol 2,True,Gutenberg
-Torrents of Spring,False,
-Bread of Deceit,False,
-Travel Diary of a Philosopher,True,archive.org
-Parody Outline of History,True,Gutenberg
-More Tales of the Uneasy,True,archive.org
-Terrible Hobby of Sir J. Londe,True,Gutenberg
-Charter House of Parma,True,Gutenberg
-Budden Brooks,True,archive.org
-Children of the Age,False,
-House of Gentle Folks,True,Gutenberg
-Father and Children,True,Gutenberg
-D' Looks at Literature,False,
-In our Time,False,
-Bull fighting,False,
-Best Short Stories 1935 Am,False,
-Flurried years,True,archive.org
-Along the Road,True,archive.org
-Strait is the fate,True,archive.org
-Collected Poems,True,eBooks@Adelaide
-The Crime at Vanderlynden's,True,archive.org
-Early Poems Yeats,False,
-Outcast of the Island,True,Gutenberg
-The Egoists,True,Gutenberg
-Steeplejacket,True,archive.org
-Far away + Long Ago,True,Gutenberg
-Thus Spoke Zarathustra,True,Gutenberg
-Knock Knock Knock,True,Gutenberg
-Two Friends,True,archive.org
-On the Eve,True,Gutenberg
-Problems of Philosophy,True,Gutenberg
-Mirrors to France,False,
+Title,Author,Included,Source
+Mammonart,Upton Sinclair,False,
+Sentimental Education,Gustave Flaubert,True,Gutenberg
+Sailing around the World,Joshua Slocum,True,Gutenberg
+Sea and the Jungle,HM Tomlinson,True,Gutenberg
+Lear of the Steppes,Ivan Turgenev,True,Gutenberg
+Sportsman's Sketches vol 2,Ivan Turgenev,True,Gutenberg
+Torrents of Spring,Ernest Hemingway,False,
+Bread of Deceit,,False,
+Travel Diary of a Philosopher,Hermann Keyserling,True,archive.org
+Parody Outline of History,Donald Ogden Stewart,True,Gutenberg
+More Tales of the Uneasy,Violet Hunt,True,archive.org
+Terrible Hobby of Sir J. Londe, E. Phillips Oppenheim,True,Gutenberg
+Charter House of Parma,Stendhal,True,Gutenberg
+Buddenbrooks,Thomas Mann,True,archive.org
+Children of the Age,,False,
+House of Gentle Folks,Ivan Turgenev,True,Gutenberg
+Father and Children,Ivan Turgenev,True,Gutenberg
+D' Looks at Literature,Jseph Collins,False,
+In our Time,Ernest Hemingway,False,
+Bull fighting,,False,
+Best Short Stories 1935 Am,,False,
+Flurried years,Violet Hunt,True,archive.org
+Along the Road, Aldous Huxley,True,archive.org
+Strait is the fate,Andre Gide,True,archive.org
+Collected Poems,William Butler Yeats,True,eBooks@Adelaide
+The Crime at Vanderlynden's,RH Mottram,True,archive.org
+Early Poems Yeats,William Butler Yeats,False,
+Outcast of the Island,Joseph Conrad,True,Gutenberg
+The Egoists,George Meredith,True,Gutenberg
+Steeplejacket,James Huneker,True,archive.org
+Far away + Long Ago,William Hudson,True,Gutenberg
+Thus Spoke Zarathustra,Friedrich Nietzsche,True,Gutenberg
+Knock Knock Knock,Ivan Turgenev,True,Gutenberg
+Two Friends,Ivan Turgenev,True,archive.org
+On the Eve,Ivan Turgenev,True,Gutenberg
+Problems of Philosophy,Bertrand Russell,True,Gutenberg
+Mirrors to France,Ford Maddox Ford,False,
