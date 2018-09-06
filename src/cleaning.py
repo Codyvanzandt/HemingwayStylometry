@@ -1,5 +1,6 @@
 import re
 import itertools
+import logging
 
 # Removing chapter, page, and paragraph markings
 chapter_and_page = [("along_the_road.txt", r"^\d+"),
@@ -86,8 +87,10 @@ def cleanUpTexts():
             text = textFile.read()
             text = makeGeneralChanges(text)
             for _, pattern in group:
+                logging.info(f"Removing regex {pattern} from {title}")
                 text = re.sub(pattern, "", text, flags=re.MULTILINE)
             with open(f"data/clean_books/{title}", "w") as cleanFile:
+                logging.info(f"Writing {title} to data/clean_books")
                 cleanFile.write(text)
 
 def groupByTitle():
