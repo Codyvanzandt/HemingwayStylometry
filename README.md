@@ -3,7 +3,7 @@
 ## Short Introduction
 Welcome to the public repository that houses my research on Hemingway's Paris reading list.
 
-This repository contains everything - code files, notes, articles, visualizations, etc. - from every step in my research process.
+This repository contains everything - code files, notes, articles, visualizations, raw data, formatted data, etc. - from every step in my research process.
 
 Big thanks to Princeton's [Mapping Expatriate Paris project](https://github.com/Princeton-CDH/mapping-expatriate-paris) for opening up their data to the public! The file /data/hemingway.tei.xml comes from their repository.
 
