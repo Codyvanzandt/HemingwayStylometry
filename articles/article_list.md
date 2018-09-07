@@ -16,3 +16,7 @@
 [Topic Influence in Authorship](https://www.uni-weimar.de/medien/webis/events/pan-07/pan07-talks/mikros07-talk-investigating-topic-influence-in-authorship-attribution.pdf)
 
 [Stylistic Influence in Literary Evolution](http://www.pnas.org/content/pnas/109/20/7682.full.pdf)
+
+[who Was the Author?](https://www.researchgate.net/publication/240414953/download)
+
+[Authorship Attribution](http://www.mathcs.duq.edu/~juola/papers.d/fnt-aa.pdf)
