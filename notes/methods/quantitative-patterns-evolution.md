@@ -1,5 +1,7 @@
 # Quantitative patterns of stylistic influence in the evolution of literature
 
+http://www.pnas.org/content/pnas/109/20/7682.full.pdf
+
 Their joint frequency of usage is known to
 provide a useful stylistic fingerprint for authorship (8, 11), and
 thus suggests a method of comparing author styles. When we
