@@ -7,7 +7,7 @@
 [Hemingway in Paris](https://www.amazon.com/Hemingway-Paris-Years-Michael-Reynolds/dp/0393318796#customerReviews)
 
 # Computational Methodology
-[Legislative Influence Detector](http://www.kdd.org/kdd2016/papers/files/adf0831-burgessA.pdf)
+[Legislative Influence Detector](http://www.kdd.org/kdd2016/papers/files/adf0831-burgessA.pdf) |
 
 [Neural Stylometry 1](http://robertmatthews.org/wp-content/uploads/2016/03/Neural-Computing-I-Fletcher.pdf)
 
