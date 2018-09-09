@@ -23,12 +23,8 @@
 
 ## Style Over Time
 
-[Gender in Shakespeare](https://pdfs.semanticscholar.org/09d2/0803f867137e1b96e04d0fcf752f78a49bf6.pdf)
-
-[Does "Late Style" Exist?](https://dh2018.adho.org/en/does-late-style-exist-new-stylometric-approaches-to-variation-in-single-author-corpora/)
-
 [Change of Writing Style with Time](http://www.users.miamioh.edu/canf/papers/chum355apr0504.pdf)
 
-[Stylometry, Chronology and the Styles of Henry James](http://www.csdl.tamu.edu/~furuta/courses/06c_689dh/dh06readings/DH06-078-080.pdf)
+[Stylometry, Chronology and the Styles of Henry James](http://www.csdl.tamu.edu/~furuta/courses/06c_689dh/dh06readings/DH06-078-080.pdf) |
 
 [Words Over Life Span](https://pdfs.semanticscholar.org/2e6a/c3552000dfa9b2281d8d24f04b921942b99b.pdf)
