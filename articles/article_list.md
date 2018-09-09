@@ -21,7 +21,7 @@
 
 [Authorship Attribution](http://www.mathcs.duq.edu/~juola/papers.d/fnt-aa.pdf) |
 
-## Style Over Time
+# Style Over Time
 
 [Change of Writing Style with Time](http://www.users.miamioh.edu/canf/papers/chum355apr0504.pdf)
 
