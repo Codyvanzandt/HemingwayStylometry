@@ -3,7 +3,7 @@ from wordcloud import WordCloud
 import collections
 import itertools
 import matplotlib.pyplot as plt
-import csv_utilities
+from src import csv_utilities
 
 def getWordFrequencies(pathToDirectory):
     allFiles = csv_utilities.loadAllCSVFiles(pathToDirectory)
