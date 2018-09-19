@@ -5,6 +5,7 @@ import os
 import textblob
 import statistics
 from nltk.stem.porter import PorterStemmer
+from text_matcher import matcher
 
 def computeTextStatistics(inputDirectoryPath, outputFilePath, blobFunction):
     allText = textblob.TextBlob(getAllText(inputDirectoryPath))
@@ -104,6 +105,6 @@ def average_sentence_length(blob):
 # computeTextStatistics("data/hemingway/before_sun", "data/analysis_results/before_sun/hapax_legomena_percentage.csv", hapax_legomena_percentage)
 # computeTextStatistics("data/token_lists/without_punctuation/with_stopwords", "data/analysis_results/reading_list/hapax_legomena_percentage.csv", hapax_legomena_percentage)
 
-computeTextStatistics("data/hemingway/sun", "data/analysis_results/sun/average_sentence_length.csv", average_sentence_length)
-computeTextStatistics("data/hemingway/before_sun", "data/analysis_results/before_sun/average_sentence_length.csv", average_sentence_length)
-computeTextStatistics("data/clean_books", "data/analysis_results/reading_list/average_sentence_length.csv", average_sentence_length)
+# computeTextStatistics("data/hemingway/sun", "data/analysis_results/sun/average_sentence_length.csv", average_sentence_length)
+# computeTextStatistics("data/hemingway/before_sun", "data/analysis_results/before_sun/average_sentence_length.csv", average_sentence_length)
+# computeTextStatistics("data/clean_books", "data/analysis_results/reading_list/average_sentence_length.csv", average_sentence_length)

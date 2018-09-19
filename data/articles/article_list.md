@@ -21,6 +21,8 @@
 
 [Authorship Attribution](http://www.mathcs.duq.edu/~juola/papers.d/fnt-aa.pdf) |
 
+[Choosing a Chunk Size](http://dh2010.cch.kcl.ac.uk/academic-programme/abstracts/papers/pdf/ab-744.pdf)
+
 # Style Over Time
 
 [Change of Writing Style with Time](http://www.users.miamioh.edu/canf/papers/chum355apr0504.pdf)
