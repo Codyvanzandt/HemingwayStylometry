@@ -5,22 +5,63 @@
 
 # Other Style Markers
 
-
 # Experiment
 
 0. Add In Our Time to Hemingway's (DONE)
 
-1. Break up the texts into equal sized blocks
+1. Break up the texts into equal sized blocks (DONE)
 
 2. Compute average and standard deviation of each marker.
+- Token Length (DONE)
+- Distinct Word Length (DONE)
+- Sentence Length (DONE)
 
-3. Conduct a series of one-way ANOVA tests to confirm differences between corpora.
+3. Conduct a series of one-way ANOVA tests to investigate differences between corpora. (DONE)
 
-4. Use stepwise discriminant analysis to determine the best discriminating features in each category.
+4. Assemble word frequency 
 
-5. Use the features identified in (4.) to perform cross-validated discriminant
-analysis to classify each block into its correct volume
+4. Conduct ANOVA frequent word analysis
 
-6. Perform SVM analysis on selected features
+5. Conduct SVM cross-validated classification using word frequencies
 
-7. Interpret the ANOVA results, the discriminant analysis results, and the SVM results.
+# Results
+
+## Token Length
+
+### Average and Standard Deviation
+
+Before Sun (4.060540387749277, 0.15427649692398712)
+Turgenev (4.269856752941347, 0.1574756594366673)
+Sun (3.9038210466988628, 0.10870749649244611)
+
+### ANOVA Results
+
+Before Sun and Turgnev differ: p-value < 0.001
+Turgenev and Sun differ: p-value < 0.000001
+Before Sun and Sun differ: p-value 0.013
+
+
+## Distinct Word Length
+
+### Average, Standard Deviation
+Before Sun (5.534873150141191, 0.18256183345987548)
+Turgenev (6.0556321735127785, 0.220413197319947)
+Sun (5.54148121632004, 0.12792135448519107)
+
+### ANOVA Results
+Before Sun and Turgnev differ: p-value < 0.000001
+Turgenev and Sun differ: p-value < 0.0000001
+Before Sun and Sun do not differ: p-value 0.923
+
+
+## Sentence Length
+
+### Average, Standard Deviation
+Before Sun (12.475445023865714, 6.371874687445602)
+Turgenev (15.734698853213878, 3.931691461944722)
+Sun (8.867200876930163, 1.437952393213336)
+
+### ANOVA Results
+Before Sun and Turgnev differ: p-value 0.046
+Turgenev and Sun differ: p-value < 0.0000001
+Before Sun and Sun do not differ: p-value 0.061
