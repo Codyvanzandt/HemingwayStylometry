@@ -18,11 +18,11 @@
 
 3. Conduct a series of one-way ANOVA tests to investigate differences between corpora. (DONE)
 
-4. Assemble word frequency 
+4. Compute Frequency by Block (DONE)
 
-4. Conduct ANOVA frequent word analysis
+5. Feature reduce the block data using PCA (DONE)
 
-5. Conduct SVM cross-validated classification using word frequencies
+6. Plot the frequency data (DONE)
 
 # Results
 
@@ -65,3 +65,13 @@ Sun (8.867200876930163, 1.437952393213336)
 Before Sun and Turgnev differ: p-value 0.046
 Turgenev and Sun differ: p-value < 0.0000001
 Before Sun and Sun do not differ: p-value 0.061
+
+## 50 Most Common Words
+
+### Intersection of 50 most common words
+['was', 'i', 'her', 'and', 'you', 'said', 'not', 'a', 'on', 'have', 'is', 'out', 'in', 'all', 'from', 'my', 'up', 'what', 'he', 'his', 'for', 'had', 'me', 'of', 'him', 'she', 'it', 'at', 'the', 'to', 'were', 'there', 'with', 'that', 'one']
+
+### Average difference in frequency
+Turgenev and Before Sun: 0.0036
+Turgenev and Sun: 0.0037
+Before Sun and Sun: 0.0022
