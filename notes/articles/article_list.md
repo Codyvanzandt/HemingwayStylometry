@@ -31,7 +31,7 @@
 
 [Words Over Life Span](https://pdfs.semanticscholar.org/2e6a/c3552000dfa9b2281d8d24f04b921942b99b.pdf) |
 
-[Quantitative Criticism pf Literary Relationships](http://www.pnas.org/content/114/16/E3195)
+[Quantitative Criticism of Literary Relationships](http://www.pnas.org/content/114/16/E3195)
 
 [Stylistic Analysis](http://digitalhumanities.org/companion/view?docId=blackwell/9781405103213/9781405103213.xml&chunk.id=ss1-4-1&toc.id=0&brand=9781405103213_brand)
 
