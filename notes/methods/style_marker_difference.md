@@ -1,17 +1,10 @@
-# ANOVA-Ready Style Markers
-- Token Length
-- Distinct Word Length
-- Sentence Length
-
-# Other Style Markers
-
 # Experiment
 
 0. Add In Our Time to Hemingway's (DONE)
 
 1. Break up the texts into equal sized blocks (DONE)
 
-2. Compute average and standard deviation of each marker.
+2. Compute average and standard deviation of each marker. (DONE)
 - Token Length (DONE)
 - Distinct Word Length (DONE)
 - Sentence Length (DONE)
@@ -23,6 +16,10 @@
 5. Feature reduce the block data using PCA (DONE)
 
 6. Plot the frequency data (DONE)
+
+7. Repeat experiment for POS frequencies (DONE)
+
+8. Read and annotate A Study in the Nature of Literary Influence
 
 # Results
 

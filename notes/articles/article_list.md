@@ -30,3 +30,7 @@
 [Stylometry, Chronology and the Styles of Henry James](http://www.csdl.tamu.edu/~furuta/courses/06c_689dh/dh06readings/DH06-078-080.pdf) |
 
 [Words Over Life Span](https://pdfs.semanticscholar.org/2e6a/c3552000dfa9b2281d8d24f04b921942b99b.pdf)
+
+# Hemingway and Turgenev
+
+[A Study in the Nature of Literary Influence](http://summit.sfu.ca/item/6267)
