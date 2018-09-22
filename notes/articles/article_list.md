@@ -25,11 +25,17 @@
 
 # Style Over Time
 
-[Change of Writing Style with Time](http://www.users.miamioh.edu/canf/papers/chum355apr0504.pdf)
+[Change of Writing Style with Time](http://www.users.miamioh.edu/canf/papers/chum355apr0504.pdf) |
 
 [Stylometry, Chronology and the Styles of Henry James](http://www.csdl.tamu.edu/~furuta/courses/06c_689dh/dh06readings/DH06-078-080.pdf) |
 
-[Words Over Life Span](https://pdfs.semanticscholar.org/2e6a/c3552000dfa9b2281d8d24f04b921942b99b.pdf)
+[Words Over Life Span](https://pdfs.semanticscholar.org/2e6a/c3552000dfa9b2281d8d24f04b921942b99b.pdf) |
+
+[Quantitative Criticism pf Literary Relationships](http://www.pnas.org/content/114/16/E3195)
+
+[Stylistic Analysis](http://digitalhumanities.org/companion/view?docId=blackwell/9781405103213/9781405103213.xml&chunk.id=ss1-4-1&toc.id=0&brand=9781405103213_brand)
+
+[Mixed Method Digital Stylistics](http://www.digitalhumanities.org/dhq/vol/11/4/000341/000341.html)
 
 # Hemingway and Turgenev
 
