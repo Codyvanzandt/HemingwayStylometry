@@ -5,3 +5,4 @@ setup.py
 dist/
 build/
 hemingwayStylometry.egg-info/
+data/hathi/

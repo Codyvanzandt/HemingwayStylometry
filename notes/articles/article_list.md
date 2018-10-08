@@ -34,3 +34,10 @@
 # Hemingway and Turgenev
 
 [A Study in the Nature of Literary Influence](http://summit.sfu.ca/item/6267)
+
+# Hemingway's Style
+
+Ernest Hemingway’s Idiosyncratic Style and Its Reflection in Russian
+Translation
+
+Ernest Hemingway: The Complexity of Simplicity
