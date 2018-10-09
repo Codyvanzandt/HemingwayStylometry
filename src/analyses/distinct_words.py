@@ -1,13 +1,8 @@
 import textblob
 import collections
 import corpus_statistics
-import pandas
 
-pandas.set_option("max_columns", None)
-pandas.set_option("max_rows", None)
-
-
-def makeFreqDict(filePath):
+def makeCountDict(filePath):
 	d = dict()
 	with open(filePath, "r") as f:
 		for line in f:
@@ -42,15 +37,15 @@ def getFunctionWords(blob):
     functionWords = {"CC", "DT", "EX", "IN", "MD", "PDT", "POS", "PRP", "RP", "TO", "UH", "WDT", "WP", "WP$", "WRB"}
     return [word.lower() for word, pos in blob.tags if pos in functionWords]
 
-turgnevCommon = getMostCommonFrequencies("data/turgenev",getFunctionWords, None)
-beforeCommon = getMostCommonFrequencies("data/hemingway/before_sun",getFunctionWords, None)
-sunCommon = getMostCommonFrequencies("data/hemingway/sun",getFunctionWords, None)
-
-works_1835_1869 = makeFreqDict("data/frequency_1835-1869")
-early_works_total_words = sum(works_1835_1869.values())
-
-works_1920_1922 = makeFreqDict("data/frequency_1920-1922")
-late_works_total_words = sum(works_1920_1922.values())
+# turgnevCommon = getMostCommonFrequencies("data/turgenev",getFunctionWords, None)
+# beforeCommon = getMostCommonFrequencies("data/hemingway/before_sun",getFunctionWords, None)
+# sunCommon = getMostCommonFrequencies("data/hemingway/sun",getFunctionWords, None)
+#
+# works_1835_1869 = makeCountDict("data/frequency_1835-1869")
+# early_works_total_words = sum(works_1835_1869.values())
+#
+# works_1920_1922 = makeCountDict("data/frequency_1920-1922")
+# late_works_total_words = sum(works_1920_1922.values())
 
 
 
